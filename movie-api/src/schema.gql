@@ -7,7 +7,7 @@ type MovieReponseDto {
   title: String!
   poster: String!
   released_on: String!
-  relasedOn: String!
+  releasedOn: String!
   genres: [String!]!
   overview: String!
 }

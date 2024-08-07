@@ -13,7 +13,7 @@ const queryByTItle = gql`
         id
         title
         poster
-        relasedOn
+        releasedOn
         genres
         overview
       }
@@ -29,7 +29,7 @@ const queryAll = gql`
         id
         title
         poster
-        relasedOn
+        releasedOn
         genres
         overview
       }

@@ -52,6 +52,7 @@ export default function GenreRow({
                             key={movie.id}
                             poster={movie.poster} 
                             title={movie.title} 
+                            releasedOn={movie.releasedOn}
                             overview={movie.overview}
                         />
                     )}

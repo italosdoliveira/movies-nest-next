@@ -3,6 +3,7 @@ import './movie-card.css';
 export default function MovieCard({
     poster, 
     title,
+    releasedOn,
     overview
 }){
     return (
@@ -10,6 +11,8 @@ export default function MovieCard({
             <img src={poster} />
             <div className="genre-row-card-footer">
                 <span>{title}</span>
+                <p>Released on: {releasedOn}</p>
+                <br />
                 <p>{overview}</p>
             </div>
         </div>
