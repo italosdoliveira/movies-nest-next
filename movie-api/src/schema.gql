@@ -1,0 +1,23 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type MovieReponseDto {
+  id: String!
+  title: String!
+  poster: String!
+  released_on: String!
+  relasedOn: String!
+  genres: [String!]!
+  overview: String!
+}
+
+type ResponseDto {
+  genres: [String!]!
+  movies: [MovieReponseDto!]!
+}
+
+type Query {
+  searchAll: ResponseDto!
+  searchByTitle(title: String!): ResponseDto!
+}

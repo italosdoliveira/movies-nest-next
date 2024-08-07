@@ -1,0 +1,73 @@
+.navbar {
+    background-color: rgba(2, 18, 54, 0.8);
+    width: 100%;
+    padding: 1.5em 0.5em;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    box-shadow: 1px 1px 1px #000000d1;
+}
+
+.menu-container {
+    display: flex;
+    margin: 0 auto;
+    padding: 0 0.3em;
+    flex-wrap: wrap;
+}
+
+.menu-container  .menu-logo {
+    width: 30%;
+    text-align: left;
+    font-weight: bold;
+}
+
+.menu-container .menu-items {
+    width: 70%;
+    text-align: right;
+}
+
+.menu-container form {
+    margin-right: 0.8em;
+}
+
+.menu-container form button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.menu-container form button i {
+    color: #fff;
+}
+
+.menu-container input {
+    background: transparent;
+    border: 1px solid #ffffff6b;
+    padding: 0.5em;
+    color: #fff;
+    width: 18em;
+    position: relative;
+}
+
+.menu-container input:focus-visible {
+    outline: none;
+}
+
+.menu-container input::placeholder {
+    color: #fcfcfcdc;
+    padding-left: 0.5em;
+}
+
+@media screen and (max-width: 768px){
+    .menu-container .menu-logo {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .menu-container .menu-items {
+        width: 100%;
+        text-align: center;
+    }
+}
