@@ -15,7 +15,7 @@ query {
       id
       title
       poster
-      relasedOn
+      releasedOn
       genres
       overview
     }
@@ -31,7 +31,7 @@ query searchByTitle($title: String!) {
       id
       title
       poster
-      relasedOn
+      releasedOn
       genres
       overview
     }
